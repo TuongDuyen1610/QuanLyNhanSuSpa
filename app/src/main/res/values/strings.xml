@@ -1,50 +1,46 @@
 <resources>
     <string name="app_name">QUẢN LÝ NHÂN SỰ SPA</string>
 
-    <!-- Main Activity -->
-    <string name="title">TRANG CHỦ QUẢN LÝ NHÂN SỰ SPA</string>
-    <string name="viewing_as_guest">Bạn đang xem với tư cách khách</string>
-    <string name="logged_in_as">Đăng nhập với tên: %s</string>
+    <resources>
+        <!-- Title and other text -->
+        <string name="welcome_message">Chào mừng Quản lý đến với ứng dụng!</string>
+        <string name="login_title">Đăng nhập Quản lý</string>
 
-    <!-- Login & Register -->
-    <string name="staff_login">Đăng Nhập Nhân Viên</string>
-    <string name="username">Email</string>
-    <string name="password">Mật khẩu</string>
-    <string name="confirm_password">Xác nhận mật khẩu</string>
-    <string name="login">ĐĂNG NHẬP</string>
-    <string name="register">Đăng Ký</string>
-    <string name="staff_registration">Đăng Ký Nhân Viên</string>
-    <string name="logout">Đăng Xuất</string>
-    <string name="cancel">HỦY</string>
-    <!-- Messages -->
-    <string name="login_successful">Đăng nhập thành công</string>
-    <string name="login_failed">Thông tin đăng nhập không hợp lệ</string>
-    <string name="logout_successful">Đăng xuất thành công</string>
-    <string name="fill_all_fields">Vui lòng điền đầy đủ thông tin</string>
-    <string name="passwords_not_match">Mật khẩu không khớp</string>
-    <string name="username_exists">Email đã tồn tại</string>
-    <string name="registration_successful">Đăng ký thành công. Bạn có thể đăng nhập ngay bây giờ.</string>
-    <string name="registration_failed">Đăng ký thất bại</string>
+        <!-- Labels -->
+        <string name="email_label">Email</string>
+        <string name="password_label">Mật khẩu</string>
+        <string name="remember_password">Nhớ mật khẩu</string>
+        <string name="forgot_password">Quên mật khẩu?</string>
+        <string name="contact_support">Liên hệ hỗ trợ</string>
 
-    <string name="register_link">Bạn chưa có tài khoản? Đăng ký ngay</string>
-    <string name="login_link_register">Đã có tài khoản? Đăng nhập</string>
-    <string name="navigation_drawer_open">Mở navigation drawer</string>
-    <string name="navigation_drawer_close">Đóng navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="admin_user">Quản trị viên</string>
-    <string name="actions">Hành động</string>
+        <!-- Button Text -->
+        <string name="login_button">Đăng nhập</string>
+        <string name="register_button">Đăng ký tài khoản</string>
 
-    <string name="manage_staff">Quản lý nhân viên</string>
-    <string name="manage_services_packages">Quản lý Dịch vụ &amp; Gói DV</string>
-    <string name="app_name_full">Ứng dụng Quản lý Nhân sự Spa</string>
-    <string name="staff_dashboard">Bảng điều khiển nhân viên</string>
-    <string name="customer_dashboard">Bảng điều khiển khách hàng</string>
-    <string name="welcome_user">Chào mừng, %1$s!</string>
-    <string name="app_name_short">Quản Lý Spa</string>
-    <string name="fab_add_desc">Thêm mục mới</string>
-    <string name="add_staff">Thêm nhân viên</string>
-    <string name="add_service">Thêm dịch vụ</string>
-    <string name="add_package">Thêm gói dịch vụ</string>
+        <!-- Error messages -->
+        <string name="error_empty_email">Email không được để trống.</string>
+        <string name="error_invalid_email">Email không hợp lệ.</string>
+        <string name="error_empty_password">Mật khẩu không được để trống.</string>
+        <string name="error_short_password">Mật khẩu phải có ít nhất 6 ký tự.</string>
+        <string name="login_failed">Thông tin đăng nhập không đúng.</string>
+
+        <!-- Success messages -->
+        <string name="login_success">Đăng nhập thành công!</string>
+
+        <!-- ProgressBar message -->
+        <string name="loading">Đang tải...</string>
+
+        <!-- Placeholder text -->
+        <string name="hint_email">Nhập email của bạn</string>
+        <string name="hint_password">Nhập mật khẩu của bạn</string>
+
+        <!-- Accessibility -->
+        <string name="email_content_description">Trường nhập email</string>
+        <string name="password_content_description">Trường nhập mật khẩu</string>
+
+        <!-- Show/Hide Password -->
+        <string name="show_password">Hiển thị mật khẩu</string>
+        <string name="hide_password">Ẩn mật khẩu</string>
+    </resources>
+
 </resources>

@@ -5,6 +5,107 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.staff.manager.LoginActivity">
+    android:background="@drawable/gradient_background"
+    tools:context=".ui.manager.LoginActivity">
+    <!-- Chào mừng -->
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng Quản lý đến với ứng dụng!"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
 
+    <!-- Email -->
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Email đăng nhập"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Mật khẩu -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:importantForAccessibility="yes"
+            android:contentDescription="Mật khẩu đăng nhập"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentStart="true"/>
+
+        <!-- Icon ẩn/hiện mật khẩu -->
+        <ImageView
+            android:id="@+id/iv_show_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_show_password"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"/>
+    </RelativeLayout>
+
+    <!-- CheckBox "Nhớ mật khẩu" -->
+    <CheckBox
+        android:id="@+id/cb_remember_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhớ mật khẩu"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nút Đăng nhập -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:enabled="false" />
+
+    <!-- Thông báo lỗi (ban đầu ẩn) -->
+    <TextView
+        android:id="@+id/tv_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin đăng nhập không đúng"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <!-- ProgressBar (ban đầu ẩn) -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <!-- Liên kết "Quên mật khẩu" -->
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu?"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+
+    <!-- Liên kết "Liên hệ hỗ trợ" -->
+    <TextView
+        android:id="@+id/tv_contact_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liên hệ hỗ trợ: support@example.com"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

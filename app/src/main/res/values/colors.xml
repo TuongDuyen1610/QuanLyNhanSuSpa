@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom color scheme for Vietnamese restaurant -->
+    <color name="primary">#D32F2F</color>
+    <color name="primary_dark">#B71C1C</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="accent">#4CAF50</color>
+    <color name="accent_light">#A5D6A7</color>
+    <color name="colorPrimary">purple_500</color>
+    <color name="colorPrimaryVariant">purple_700</color>
+    <color name="colorOnPrimary">white</color>
+    <color name="colorSecondary">teal_200</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="price_color">#D32F2F</color>
 </resources>

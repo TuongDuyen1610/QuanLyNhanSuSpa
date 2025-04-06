@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,10 +11,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuanLyNhanSuSpa"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".constants.AppConstants"
+            android:exported="false" />
+        <activity
+            android:name=".utils.Validator"
+            android:exported="false" />
+        <activity
+            android:name=".utils.SessionManager"
+            android:exported="false" />
+        <activity
+            android:name=".adapter.BookingAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".adapter.PackageAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".adapter.ServiceAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".adapter.EmployeeAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".database.DatabaseHelper"
+            android:exported="false" />
+        <activity
+            android:name=".model.Customer"
+            android:exported="false" />
+        <activity
+            android:name=".model.Booking"
+            android:exported="false" />
+        <activity
+            android:name=".model.Package"
+            android:exported="false" />
+        <activity
+            android:name=".model.Service"
+            android:exported="false" />
+        <activity
+            android:name=".model.Employee"
+            android:exported="false" />
+        <activity
+            android:name=".model.User"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
